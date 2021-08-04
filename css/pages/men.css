@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	padding-top: 100px;
+	letter-spacing: 0.2em;
+}
+.item-block img{
+	max-width: 100%;
+}
+@media (max-width: 480px){
+    .item-block img{
+    	max-width: 100%;
+    	
+    }
+
+}

@@ -1,0 +1,106 @@
+.contact_image img{
+	background-size:  cover;
+	height:50%;
+}
+.contact_image {
+    color: #fff;
+    min-height: 80vh;
+    height: 420px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+/*.contact_image>img, #reviews>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.8);
+}*/
+
+.dd h3{
+	color: #000000;
+	font-size: 70px;
+	margin-left: 60px;
+	text-align: center;
+	animation-duration: 3s;
+  	animation-name: slidein;
+  	font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.dd i{
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+}
+
+.dd{
+  transform: translateX(20%);
+}
+
+.two_lines{
+  border-top: 2px solid #f6a7a3;
+  border-right:  2px solid #f6a7a3;
+/*  margin-left: 100px;
+*/  margin-top: 30px;
+  width: 500px;
+}
+.fa-map-marker:before {
+    content: "\f041";
+    padding-right: 10px;
+    font-size: 20px;
+}
+.fa-phone-alt:before {
+    padding-right: 10px;
+    font-size: 30px;
+}
+/*.contact input {
+	margin-top: 30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 400px;
+}
+.two_lines h3{
+	padding-top: 30px;
+	font-size: 30px;
+	color: #f6a7a3;
+}
+.contact textarea{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}*/
+.contact {
+	padding-top: 60px;
+}
+.footer{
+  padding-top: 20px;
+}
+
+@media  (max-width: 600px) {
+
+.two_lines{
+ margin-left: 0;
+ width: 500px;
+}
+/*.contact{
+  padding-top: 600px;
+}*/
+h2{
+  padding-top: 100px; 
+}
+/*.form-group input{
+max-width: 75%;
+}
+.form-group textarea{
+max-width: 75%;
+}*/
+}
+

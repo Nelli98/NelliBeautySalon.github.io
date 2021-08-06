@@ -31,7 +31,11 @@ img{
   width: 600px;
 }
 
-
+.pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
 .text{
   height: 120vh;
 }
@@ -186,11 +190,8 @@ label:hover{
 }
 .photo-gallery{
   width: 100%;
-  margin: auto;
-/*  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 20px;*/
-    align-items: center;
+  align-items: center;
+  padding-top: 30px;
 }
 /*.pic{
   position: relative;
